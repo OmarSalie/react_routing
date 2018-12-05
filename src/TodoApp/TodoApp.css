@@ -1,0 +1,245 @@
+.Todo-App {
+  display: grid;
+
+  height: 100vh;
+
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr); 
+
+  background-color: #405275;
+}  
+
+.Task-Lists-Select {
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+  background-color: #29354B;
+}
+.New-Task {
+  grid-column: 2/7;
+  grid-row: 1;
+
+  text-align: center;
+
+  background-color: #354460;
+}
+
+.Task-Display {
+  grid-column: 1/2;
+  grid-row: 2/6;
+
+  background-color: #354460;
+}
+
+.Task-List {
+  grid-column: 2/7;
+  grid-row: 2/6;
+}
+
+.dropdown-list {
+  width: 100px;
+  /* height: 45px; */
+
+  font-size: 20px;
+  text-align: center;
+
+  padding: 10px;
+
+  background-color: #f99e1a;
+  color: #405275;
+
+  outline:none;
+
+  border: 1px solid #fff;
+  border-radius: 6px;
+
+  display: block;
+  margin: 20px auto;
+}
+
+.New-Task-Input {
+  background-color: transparent;
+
+  width: 300px;
+  /* height: 50px; */
+
+  border: 1px solid white;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  /* margin: 20px; */
+  margin-right: 0;
+
+  text-align: center;
+  color: white;
+
+  font-size: 20px;
+  outline:none;
+}
+
+.New-Task-Input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+
+  text-align: center;
+}
+
+.New-Task-Button {
+  background-color: #f99e1a;
+
+  width: 100px;
+  /* height: 54px; */
+
+  border: 1px solid white;
+  border-left: none;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+  margin: 20px;
+  margin-left: 0;
+
+  color: #405275;
+
+  font-size: 20px;
+  outline:none;
+}
+
+.searchBar {
+  background-color: transparent;
+
+  border: 1px solid white;
+  border-radius: 10px;
+
+  margin: 20px;
+  margin-right: 0;
+
+  text-align: center;
+  color: white;
+  outline:none;
+
+  display: inline-block;
+}
+
+.searchBar::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.search-arrow-right {
+  display: inline-block;
+}
+
+.filter-buttons {
+  background-color: #f99e1a;
+
+  border: 1px solid #fff;
+
+  color: #405275;
+  outline:none;
+
+  display: block;
+  margin: 20px auto;
+
+  width: 100px;
+}
+
+.Task-List-UL ul{
+  list-style-type: none;
+}
+
+.list-items {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: white;
+  text-align: left;
+  margin: 2px;
+  margin-bottom: 10px;
+}
+
+.edit-buttons-span {
+  text-align: center;
+}
+
+.edit-buttons {
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #f99e1a;
+  color: #405275;
+  border: 1px solid #405275;
+  outline:none;
+}
+
+.Task-Item-Edit {
+  display: block;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.edit-link {
+  text-decoration: none;
+  color: white;
+}
+
+.edit-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.edit-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.edit-link:link {
+  text-decoration: none;
+  color: white;
+}
+
+.edit-link:active {
+  text-decoration: none;
+  color: white;
+}
+
+.arrow-up {
+  font-size: 20px;
+}
+
+
+.item-status {
+  text-align: center;
+}
+
+.edit-task {
+  background-color: transparent;
+
+  border: 1px solid white;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  text-align: center;
+  color: white;
+
+  outline:none;
+}
+
+.edit-task::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+
+  text-align: center;
+}
+
+.edit-confirm {
+  background-color: #f99e1a;
+
+  border: 1px solid white;
+  border-left: none;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+  color: #405275;
+  outline:none;
+}
